@@ -1,0 +1,50 @@
+0                1             Arrives
+0                1             Begins execution on CPU#1
+5                1             Ends execution on CPU#1
+5                1             Begins Printing
+6                1             Ends Printing
+7                2             Arrives
+7                2             Begins execution on CPU#1
+9                3             Arrives
+9                3             Begins execution on CPU#2
+10                4             Arrives
+11                3             Ends execution on CPU#2
+11                3             Begins Printing
+12                5             Arrives
+12                5             Begins execution on CPU#2
+13                5             Ends execution on CPU#2
+13                6             Arrives
+13                6             Begins execution on CPU#2
+16                7             Arrives
+25                3             Ends Printing
+25                5             Begins Printing
+25                8             Arrives
+27                6             Ends execution on CPU#2
+27                7             Begins execution on CPU#2
+28                5             Ends Printing
+28                6             Begins Printing
+29                7             Ends execution on CPU#2
+30                2             Ends execution on CPU#1
+30                4             Begins execution on CPU#1
+31                9             Arrives
+31                9             Begins execution on CPU#2
+33                4             Ends execution on CPU#1
+33                8             Begins execution on CPU#1
+37                8             Ends execution on CPU#1
+39                6             Ends Printing
+39                7             Begins Printing
+40                10             Arrives
+40                10             Begins execution on CPU#1
+41                7             Ends Printing
+41                2             Begins Printing
+43                10             Ends execution on CPU#1
+46                2             Ends Printing
+46                4             Begins Printing
+47                9             Ends execution on CPU#2
+48                4             Ends Printing
+48                8             Begins Printing
+65                8             Ends Printing
+65                10             Begins Printing
+69                10             Ends Printing
+69                9             Begins Printing
+74                9             Ends Printing

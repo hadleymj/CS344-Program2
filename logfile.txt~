@@ -1,0 +1,15 @@
+0                1             Arrives
+0                1             Begins execution on CPU#1
+12                2             Arrives
+12                2             Begins execution on CPU#2
+38                3             Arrives
+38                3             Begins execution on CPU#1
+38                3             Ends execution on CPU#1
+38                3             Begins Printing
+38                3             Ends Printing
+12                2             Ends execution on CPU#2
+12                2             Begins Printing
+0                1             Ends execution on CPU#1
+0                1             Begins Printing
+12                2             Ends Printing
+0                1             Ends Printing
